@@ -6,10 +6,6 @@
     "scripts": {
         "dev": "node ./node_modules/ada-pack/dev/index.js"
     },
-    "adaDev": {
-        "port": 8080,
-        "appPath": "./app/app.js"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/topolr/ada-template.git"
