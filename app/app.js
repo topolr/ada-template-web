@@ -50,8 +50,8 @@ let app = {
     },
     worker: {
         scope: "/",
-        regist(done) {
-            done.then(reg => {
+        beforeregist(regist) {
+            regist.then(reg => {
                 if (reg.installing) {
                     console.log('Service worker installing');
                 } else if (reg.waiting) {
