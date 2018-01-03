@@ -11,7 +11,7 @@ let app = {
     theme_color: "",
     description: "A simply web template of ada.",
     main: "./src/root.js",
-    entry_path: "./src/view/pages",
+    entry_path: "",
     icons: [
         {"src": "icons/48@2x.png", "sizes": "48x48", "type": "image/png"},
         {"src": "icons/72@2x.png", "sizes": "72x72", "type": "image/png"},
