@@ -12,10 +12,10 @@
     "url": "https://github.com/topolr/ada-template.git"
   },
   "dependencies": {
-    "adajs": "^1.1.0"
+    "adajs": "git+https://github.com/topolr/ada.git"
   },
   "devDependencies": {
-    "ada-pack": "^1.0.6",
+    "ada-pack": "git+https://github.com/topolr/ada-pack.git",
     "express": "^4.16.2",
     "http-proxy-middleware": "^0.17.4"
   },

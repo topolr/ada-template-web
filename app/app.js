@@ -11,13 +11,6 @@ let app = {
         {"src": "icons/144@2x.png", "sizes": "144x144", "type": "image/png"},
         {"src": "icons/168@2x.png", "sizes": "168x168", "type": "image/png"},
         {"src": "icons/192@2x.png", "sizes": "192x192", "type": "image/png"}
-    ],
-    compiler: {
-        babel: {
-            presets: [
-                "@babel/typescript", ["@babel/env", {"targets": {"chrome": "30"}}]
-            ]
-        }
-    }
+    ]
 };
 export default app;
