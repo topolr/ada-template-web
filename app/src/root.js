@@ -1,5 +1,5 @@
 import {root, StaticViewGroup} from "adajs";
-import Welcome from "./welcome/base";
+import Welcome from "./welcome";
 
 @root()
 class Root extends StaticViewGroup {

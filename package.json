@@ -4,15 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./node_modules/ada-pack/bin/develop.js",
-    "publish": "node ./node_modules/ada-pack/bin/publish.js"
+    "dev": "node ./node_modules/ada-pack/bin/cli dev",
+    "publish": "node ./node_modules/ada-pack/bin/cli publish",
+    "ada": "node node_modules/adajs/bin/cli",
+    "pack": "node node_modules/ada-pack/bin/cli"
+  },
+  "ada": {
+    "develop": "./app/app.js",
+    "publish": "./app/app.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/topolr/ada-template.git"
   },
   "dependencies": {
-    "adajs": "git+https://github.com/topolr/ada.git"
+    "adajs": "^3.0.0-beta.29"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.52",
@@ -31,7 +37,7 @@
     "@babel/preset-env": "^7.0.0-beta.52",
     "@babel/preset-typescript": "^7.0.0-beta.52",
     "@babel/runtime": "^7.0.0-beta.52",
-    "ada-pack": "git+https://github.com/topolr/ada-pack.git",
+    "ada-pack": "^3.0.0-beta.12",
     "autoprefixer": "^8.6.5",
     "express": "^4.16.2",
     "html-minifier": "^3.5.18",
